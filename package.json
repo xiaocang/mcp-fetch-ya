@@ -1,0 +1,49 @@
+{
+  "name": "mcp-fetch-ya",
+  "version": "0.1.0",
+  "description": "MCP server for fetching web content and converting to markdown",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "mcp-fetch-ya": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "fetch",
+    "web",
+    "markdown"
+  ],
+  "author": "xiaocang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaocang/mcp-fetch-ya.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xiaocang/mcp-fetch-ya/issues"
+  },
+  "homepage": "https://github.com/xiaocang/mcp-fetch-ya#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "@mozilla/readability": "^0.5.0",
+    "commander": "^13.1.0",
+    "https-proxy-agent": "^7.0.6",
+    "jsdom": "^26.0.0",
+    "robots-parser": "^3.0.1",
+    "turndown": "^7.2.0",
+    "zod": "^3.25.9"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^22.15.29",
+    "@types/turndown": "^5.0.5",
+    "typescript": "^5.8.3"
+  }
+}
