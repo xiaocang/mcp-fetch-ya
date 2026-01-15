@@ -1,6 +1,6 @@
 {
   "name": "@xiaocangpt/mcp-fetch-ya",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "MCP server for fetching web content and converting to markdown",
   "type": "module",
   "main": "./dist/index.js",
