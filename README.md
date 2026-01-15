@@ -12,13 +12,13 @@ A Model Context Protocol (MCP) server for fetching web content and converting HT
 ## Installation
 
 ```bash
-npm install -g mcp-fetch-ya
+npm install -g mcp-fetch-ya@latest
 ```
 
 Or use directly with npx:
 
 ```bash
-npx mcp-fetch-ya
+npx mcp-fetch-ya@latest
 ```
 
 ## Usage with Claude Desktop
@@ -30,7 +30,7 @@ Add to your Claude Desktop configuration (`~/Library/Application Support/Claude/
   "mcpServers": {
     "fetch": {
       "command": "npx",
-      "args": ["mcp-fetch-ya"]
+      "args": ["mcp-fetch-ya@latest"]
     }
   }
 }
@@ -44,7 +44,7 @@ Add to your Claude Desktop configuration (`~/Library/Application Support/Claude/
     "fetch": {
       "command": "npx",
       "args": [
-        "mcp-fetch-ya",
+        "mcp-fetch-ya@latest",
         "--ignore-robots-txt",
         "--user-agent", "MyBot/1.0"
       ]
@@ -61,7 +61,7 @@ Add to your Claude Desktop configuration (`~/Library/Application Support/Claude/
     "fetch": {
       "command": "npx",
       "args": [
-        "mcp-fetch-ya",
+        "mcp-fetch-ya@latest",
         "--proxy-url", "http://proxy.example.com:8080"
       ]
     }
