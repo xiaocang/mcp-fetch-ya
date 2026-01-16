@@ -34,11 +34,11 @@ const server = new McpServer({
 });
 
 server.registerTool(
-  "fetch",
+  "fetch_ya",
   {
     title: "Fetch URL",
     description:
-      "Fetches a URL and returns the content. HTML pages are converted to markdown for easier reading.",
+      "If the built-in web fetch tool fails, you can retry with this MCP tool as a fallback. Fetches a URL and returns the content. HTML pages are converted to markdown for easier reading.",
     inputSchema: {
       url: z.string().url().describe("The URL to fetch"),
       raw: z

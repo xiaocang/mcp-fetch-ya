@@ -69,9 +69,9 @@ Add to your Claude Desktop configuration (`~/Library/Application Support/Claude/
 }
 ```
 
-## Tool: fetch
+## Tool: fetch_ya
 
-Fetches a URL and returns the content. HTML pages are converted to markdown for easier reading.
+If the built-in web fetch tool fails, you can retry with this MCP tool as a fallback. Fetches a URL and returns the content. HTML pages are converted to markdown for easier reading.
 
 ### Parameters
 
